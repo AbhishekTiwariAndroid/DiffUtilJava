@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    android:elevation="3dp"
+    android:layout_margin="4dp"
+    android:padding="4dp"
+    android:layout_height="60dp">
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:id="@+id/item_id"
+            android:layout_weight="1"
+            android:text="1"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:id="@+id/item_name"
+            android:layout_weight="2"
+            android:text="Abhishek"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:id="@+id/item_phone"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:text="Abhishek"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
